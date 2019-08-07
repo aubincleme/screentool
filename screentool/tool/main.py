@@ -18,7 +18,7 @@ if ('list').startswith(args.action):
     lm.list()
 elif ('register').startswith(args.action):
     lm.register()
-elif ('apply').startswith(args.action):
-    lm.apply(None)
+elif ('configure').startswith(args.action):
+    lm.configure()
 elif ('status').startswith(args.action):
     lm.status()
