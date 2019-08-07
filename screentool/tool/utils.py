@@ -27,8 +27,9 @@ def parse_args():
 
     subParsers = rootParser.add_subparsers(dest='action', required=True, help='the action to perform')
 
-    subParsers.add_parser('list', help='list the registered layouts')
     subParsers.add_parser('configure', help='configure X on a registered layout')
+    subParsers.add_parser('list', help='list the registered layouts')
     subParsers.add_parser('register', help='register the current screen layout')
+    subParsers.add_parser('status', help='get the current layout status')
 
     return rootParser.parse_args()

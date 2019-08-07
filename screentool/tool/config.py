@@ -13,7 +13,7 @@ class ConfigManager:
     logger = logging.getLogger('ConfigManager')
 
     defaultConfig = {
-        'presets': []
+        'layouts': []
     }
 
     def __init__(self):
